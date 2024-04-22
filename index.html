@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Adicione estilos personalizados aqui, se necessário */
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Seja Bem-Vindo!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#secao1">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#secao2">Repositório</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#secao3">Conteúdos Aleatórios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#secao4">Colegas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="secao1" class="py-5">
+            <div class="container">
+                <!-- Seção 1 - Apresentação do perfil -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/Perfil.jpg" alt="Avatar" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Matheus Fuscaldi</h2>
+                        <p>Nome: Matheus Fuscaldi Gomes Santos<br> Idade: 18 anos <br> Formação: Ensino Médio Completo, Tencnico em TI pela Cotemig<br>Linguas: Inglês Intermediário, Espanhol básico<br><br> Conhecimentos: <br><br>.Html/css/JavaScript Intermediário<br>.C# Nível Intermediário<br>.MySQL básico<br>.Swift(IOS mobile program) Básico<br>.PHP nível básico<br><br>Também possuo habilidades em edição de vídeos e criação de Animações Ilustrativas<br>Além de construção de jogos nivel básico no Unity e nível Intermediário na plataforma Construct</p>
+                        <p>
+                            <a href="https://www.instagram.com/math_fgs/" class="btn btn-primary">Contato</a>
+                            <a href="https://www.linkedin.com/in/matheus-fuscaldi-8422012b5/" class="btn btn-secondary">LinkedIn</a>
+                            <a href="https://github.com/matheusfgs" class="btn btn-primary">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="secao2" class="py-5 bg-light">
+            <div class="container">
+                <!-- Seção 2 - Cards de repositórios -->
+                <h2 class="mb-4">Meus Repositórios Públicos</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Repositório - Calculadora-de-IMC</h5>
+                                <p class="card-text">Calculadora Básica para imprimir o resultado do seu IMC<br> Verificando se você está no peso Ideal</p>
+                                <button onclick="window.location.href='Portfolio.html'">Ir para Página do Repositório</button>
+                                <a href="https://matheusfgs.github.io/Calculadora-de-IMC/" class="btn btn-secondary">Site do projeto em reposítorio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </div>
+        </section>
+
+        <section id="secao3" class="py-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/foto1.jpeg" alt="Primeiro slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/foto2.jpeg" alt="Segundo slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/foto3.jpeg" alt="Terceiro slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="secao4" class="py-5 bg-light">
+            <div class="container">
+                <!-- Seção 4 - Grade de colegas de trabalho -->
+                <h2 class="mb-4">Colegas de Trabalho</h2>
+                <h4>(Pegos pelo thispersondoesnotexist)</h4>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/Fuko.png" alt="Avatar" class="img-fluid rounded-circle">
+                                <h5 class="card-title">Fuko Hagasaki Souza</h5>
+                                <p class="card-text"> Otima em programação em C</p>
+                            </div>
+                            <div class="card-body">
+                                <img src="assets/Hussel.png" alt="Avatar" class="img-fluid rounded-circle">
+                                <h5 class="card-title">Santina Hussel Soares</h5>
+                                <p class="card-text">Formada em Administração na USP<br> E atualmente cursando Engenharia de Software</p>
+                            </div>
+
+                            <div class="card-body">
+                                <img src="assets/White.jpeg" alt="Avatar" class="img-fluid rounded-circle">
+                                <h5 class="card-title">Valter Vhite Fernandez</h5>
+                                <p class="card-text"> Possui Mestrado em Ciências da Computação pela UFPE</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+                    <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; Feito por Matheus Fuscaldi - 2024- Meu site de Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
